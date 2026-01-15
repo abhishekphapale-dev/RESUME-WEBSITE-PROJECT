@@ -1,0 +1,34 @@
+/* variables.css - CSS Custom Properties */
+
+:root {
+    /* Colors */
+    --primary-dark: #0a0e27;
+    --primary-accent: #6366f1;
+    --secondary-accent: #ec4899;
+    --tertiary-accent: #06b6d4;
+    --text-primary: #f8fafc;
+    --text-secondary: #cbd5e1;
+    --text-muted: #94a3b8;
+    --card-bg: rgba(30, 41, 59, 0.5);
+    --card-border: rgba(148, 163, 184, 0.1);
+
+    /* Typography */
+    --font-display: 'Playfair Display', serif;
+    --font-body: 'DM Sans', sans-serif;
+
+    /* Spacing */
+    --section-margin: 5rem;
+    --card-padding: 2.5rem;
+    --border-radius: 20px;
+    --border-radius-sm: 16px;
+
+    /* Transitions */
+    --transition-base: 0.3s ease;
+    --transition-long: 0.4s ease;
+    --transition-bounce: 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+
+    /* Shadows */
+    --shadow-sm: 0 10px 30px rgba(99, 102, 241, 0.1);
+    --shadow-md: 0 20px 60px rgba(99, 102, 241, 0.15);
+    --shadow-lg: 0 25px 50px rgba(99, 102, 241, 0.2);
+}

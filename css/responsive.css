@@ -1,0 +1,126 @@
+/* responsive.css - Responsive Design */
+
+@media (max-width: 768px) {
+    /* Header Adjustments */
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    .title {
+        font-size: 1.125rem;
+    }
+
+    .contact-links {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    /* Section Adjustments */
+    .section-title {
+        font-size: 2rem;
+    }
+
+    /* Grid Adjustments */
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .certifications-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Card Padding Adjustments */
+    .about-content {
+        padding: 2rem;
+    }
+
+    .experience-card,
+    .project-card {
+        padding: 1.5rem;
+    }
+
+    /* Main Container */
+    main {
+        padding: 1rem;
+    }
+
+    /* Header */
+    header {
+        padding: 3rem 1rem;
+    }
+
+    .profile-image-container {
+        width: 140px;
+        height: 140px;
+    }
+
+    .profile-image {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    .title {
+        font-size: 1rem;
+        letter-spacing: 1px;
+    }
+
+    .section-title {
+        font-size: 1.75rem;
+    }
+
+    .profile-image-container {
+        width: 120px;
+        height: 120px;
+    }
+
+    .profile-image {
+        font-size: 2.5rem;
+    }
+
+    .about-content {
+        padding: 1.5rem;
+    }
+
+    .about-text {
+        font-size: 1rem;
+    }
+}
+
+/* Tablet Specific */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .projects-grid {
+        grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+    }
+
+    .skills-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .certifications-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Large Screens */
+@media (min-width: 1440px) {
+    main {
+        max-width: 1400px;
+    }
+
+    .section-title {
+        font-size: 3rem;
+    }
+
+    h1 {
+        font-size: 4.5rem;
+    }
+}
